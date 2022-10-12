@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Seu Carrinho de Compras</h1>
+    </div>
+    <table>
+        <thead>
+            <tr class="header">
+                <th></th>
+                <th>Item</th>
+                <th>Quantidade</th>
+                <th>Preço</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="content">
+                <td><img src="pkm1.png" alt="" class="product"></td>
+                <td>Carta Toxtricity-V Shiny</td>
+                <td>1</td>
+                <td>R$ 60,00</td>
+                <td>R$ 60,00</td>
+            </tr>
+            <tr class="content">
+                <td><img src="pkm2.png" alt="" class="product"></td>
+                <td>Carta Toxtricity-VMAX Shiny</td>
+                <td><input type="number" name="quant" id="quant"></td>
+                <td>R$ 88,00</td>
+                <td>R$ 176,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4"></td>
+                <td>R$ 236,00</td>
+            </tr>
+        </tfoot>
+    </table>
+    <div class="ending">
+        <a href="#">Editar Carrinho</a>
+        <button class="payment">Escolher Forma de Pagamento</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

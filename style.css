@@ -1,0 +1,87 @@
+body{
+    background-color: #A6B7EC;
+    font-family: sans-serif;
+    padding: 50px;
+    color: #1C3379;
+}
+div{
+    width: 80%;
+    margin: auto;
+}
+h1{
+    font-size: 22px;
+}
+table{
+    background-color: #fff;
+    border-radius: 6px;
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+thead{
+    font-size: 14px;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.350);
+    color: rgba(128, 128, 128, 0.85);
+
+}
+th{
+    padding: 10px;
+}
+td{
+    padding: 10px;
+}
+th, .content td, tfoot{
+    text-align: right;
+}
+tfoot{
+    font-size: 18px;
+    font-weight: bold;
+}
+tfoot td{
+    padding: 25px 10px;
+}
+.content td:nth-child(1){
+    text-align: center;
+}
+.header th:nth-child(2), .content td:nth-child(2){
+    text-align: left;
+}
+
+.product{
+    height: 100px;
+}
+.content{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.350);
+    color: #1a40b3ad;
+}
+.content td:nth-child(5){
+    font-weight: bold;
+    color: #0d256e;
+}
+.ending{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.payment{
+    background-color: #1C3379 ;
+    border: 0;
+    border-radius: 5px;
+    padding: 25px;
+    color: #FFF;
+    cursor: pointer;
+    transition: background-color .3s;
+    
+}
+.payment:hover{
+    background-color: #2f4ca1;
+}
+.payment:active{
+    box-shadow: inset 1px 1px 10px black;
+
+}
+a{
+    color: #26439ce1;
+}
