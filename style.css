@@ -59,6 +59,10 @@ tfoot td{
     font-weight: bold;
     color: #0d256e;
 }
+.quant {
+    width: 50px;
+    text-align: center;
+}
 .ending{
     display: flex;
     justify-content: space-between;
