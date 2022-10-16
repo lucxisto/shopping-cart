@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded',function(){
     const quantityProd = document.getElementsByClassName('quantity');
-    quantityProd.addEventListener('change', calcPrice);
+    for (let i = 0; i < quantityProd.length; i++){
+        quantityProd[i].addEventListener('change', calcPrice);
+    }
 })
 function calcPrice(event){
     const quantityProd = document.getElementsByClassName('quantity');
